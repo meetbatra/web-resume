@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    height: 100vh;
+}
+
+.header, .footer {
+    /* width: 100%; */
+    text-align: center;
+    padding: 1.5rem;
+    background-color: lightblue;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
+
+.left, .right {
+    padding: 0 2rem 0 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+h2, h3 {
+    margin: 1rem 0 1rem 0;
+}
+
+.profile-img {
+    height: 10rem;
+    width: 10rem;
+    margin-top: 1rem;
+}
+
+.contact p {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.experience {
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-left: 2rem;
+}
