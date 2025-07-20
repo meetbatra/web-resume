@@ -45,6 +45,7 @@ h2, h3 {
     height: 10rem;
     width: 10rem;
     margin-top: 1rem;
+    border-radius: 50%;
 }
 
 .contact p {
@@ -57,4 +58,21 @@ h2, h3 {
 
 li {
     margin-left: 2rem;
+}
+
+@media (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+        box-sizing: border-box;
+        margin-left: 0;
+    }
+
+    .skills {
+        margin-bottom: 1rem;
+    }
 }
